@@ -3,3 +3,4 @@ pandas==1.2.4
 plotly
 matplotlib
 seaborn==0.11.1
+pickle-mixin
