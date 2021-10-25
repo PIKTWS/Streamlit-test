@@ -18,7 +18,7 @@ st.sidebar.header('Choose Prediction Model')
 model_choice = st.sidebar.selectbox('Select Prediction Model', ['Diabetes Prediction','Other predictions'], key='1')
 
 if model_choice == 'Diabetes Prediction':
-    col1,col2,col3 = st.beta_columns(3)
+    col1,col2,col3 = st.columns(3)
     with col2:
         st.image("./pics/super_ai_logo.png", caption=None, width=200, use_column_width=None, clamp=False, channels='RGB',output_format='auto')
     st.title('🍄 Predition chance of diabetes 😱')
