@@ -8,8 +8,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 
-
-
 pickle_in = open('logisticRegr.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
