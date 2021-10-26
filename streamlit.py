@@ -51,3 +51,11 @@ if model_choice == 'Diabetes Prediction':
                 st.error("Ohh  " + str(name) +"... We are really sorry to say but it seems like you are Diabetic. But don't worry, there's a cure.")
                 st.info("Remember.  The sooner you know, the eaiser cure will be.")
 
+
+if model_choice == 'Other predictions':
+    col1,col2,col3 = st.columns(3)
+    with col2:
+        # st.image("./pics/super_ai_logo.png", caption=None, width=200, use_column_width=None, clamp=False, channels='RGB',output_format='auto')
+        st.image("./pics/AIAT-NO-BG.png", caption=None, width=200, use_column_width=None, clamp=False, channels='RGB',output_format='auto')
+    st.title('Other prediction model to deploy')
+    st.text('To be added ')
