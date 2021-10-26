@@ -20,7 +20,8 @@ model_choice = st.sidebar.selectbox('Select Prediction Model', ['Diabetes Predic
 if model_choice == 'Diabetes Prediction':
     col1,col2,col3 = st.columns(3)
     with col2:
-        st.image("./pics/super_ai_logo.png", caption=None, width=200, use_column_width=None, clamp=False, channels='RGB',output_format='auto')
+        # st.image("./pics/super_ai_logo.png", caption=None, width=200, use_column_width=None, clamp=False, channels='RGB',output_format='auto')
+        st.image("./pics/AIAT-NO-BG.png", caption=None, width=200, use_column_width=None, clamp=False, channels='RGB',output_format='auto')
     st.title('🍄 Predition chance of diabetes 😱')
     name = st.text_input("Patient Name:")
     # pregnancy = st.number_input("No. of times pregnant: ")
